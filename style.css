@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Marcellus+SC&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* ----------------------------------- Hero section Style Start ----------------------------------- */
+
+/* Defult css */
+
+.container {
+    width: 1140px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:visited {
+    color: #946F41;
+}
+
+a:hover {
+    color: #946F41;
+}
+
+.main-header {
+    background-image: url(img/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 896px;
+}
+
+.header-right {
+    align-self: center;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: black;
+}
+
+
+.header-btn {
+    align-self: center;
+}
+
+.header-btn button {
+    background: none;
+}
+
+.header-btn button a {
+    background: #946F41;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+}
+
+
+
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* ----------------------------------- Hero section Style End ----------------------------------- */
+
+/* ------------------------Heading Content Style Start------------------------ */
+.content {
+    width: 700px;
+    margin: 40px 0px;
+}
+
+.content h1 {
+    font-family: "Playfair Display";
+    font-size: 138px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.content p {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 435px;
+}
+
+.content-img {
+    transform: translate(-65px, -200px);
+}
+
+.content-form {
+    /* margin-left: -300px; */
+    margin-top: 30px;
+}
+
+.content-form input {
+    width: 450px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content-form button {
+    width: 470px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    color: #946F41;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content-form button:hover {
+    background-color: #946F41;
+    color: #ffffff;
+}
+
+/* ------------------------Heading Content Style End------------------------ */
+
+/* --------------------------- 2nd Choice Section Style Start --------------------------- */
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .about_content_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0%;
+}
+
+.about-us .about_left {
+    width: 50%;
+}
+
+.about-us .about_right {
+    width: 50%;
+}
+
+.about_right h2 {
+    font-size: 60px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    color: #946F41;
+}
+
+.about_right p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.about_right .about-medium {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+
+.about-medium h4 {
+    font-size: 30px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    color: #946F41;
+}
+
+.about-medium p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-right: 2px solid #946F41;
+}
+
+/* --------------------------- 2nd Choice Section Style End --------------------------- */
+
+/* -------------------- Start Services section Style -------------------  */
+
+/* .main-services{
+    margin: 2% 0%;
+  
+  }
+.services-header h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    color: #946F41;
+}
+
+.services-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-services .service{
+    width: 33.333%;
+} */
+
+
+/* --------------Start Treatments ----------------- */
+/* 
+.main-treatment {
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    justify-content: space-evenly;
+ } */
+.treatment_head h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    color: #946F41;
+}
+
+.main-treatment .treatment_boxes_cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main-treatment .treatment_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.main-treatment .treatment_box {
+    width: 20%;
+    height: 170px;
+    /* background-color: #946F41; */
+    margin: 5px;
+    padding: 30px 20px;
+    border: 2px dotted #946F41;
+    border-radius: 10px;
+}
+
+.main-treatment .treatment_box h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    color: #946F41;
+}
+
+.main-treatment .treatment_box h2 {
+    font-size: 38px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    color: #946F41;
+}
+
+.main-treatment .treatment_box p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'sans-serif;
+    font-weight: 400;
+
+}
+
+.treatment_box_img_right {
+    width: 23% !important;
+    height: 234px !important;
+    padding: 0px !important;
+    border: none !important;
+    background-image: url(img/Rectangle\ 4459.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.treatment_box_img_right_2 {
+    width: 23% !important;
+    height: 234px !important;
+    padding: 0px !important;
+    border: none !important;
+    background-image: url(img/Rectangle\ 4460.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.treatment_box_img_right_3 {
+    width: 23% !important;
+    height: 234px !important;
+    padding: 0px !important;
+    border: none !important;
+    background-image: url(img/Rectangle\ 4461.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
