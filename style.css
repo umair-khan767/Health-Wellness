@@ -218,38 +218,6 @@ a:hover {
 /* --------------------------- 2nd Choice Section Style End --------------------------- */
 
 /* -------------------- Start Services section Style -------------------  */
-
-/* .main-services{
-    margin: 2% 0%;
-  
-  }
-.services-header h1{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Playfair Display';
-    font-weight: 400;
-    color: #946F41;
-}
-
-.services-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.main-services .service{
-    width: 33.333%;
-} */
-
-
-/* --------------Start Treatments ----------------- */
-/* 
-.main-treatment {
-    display: flex;
-    justify-content: center;     
-    align-items: center;
-    justify-content: space-evenly;
- } */
 .treatment_head h2 {
     text-align: center;
     font-size: 60px;
@@ -335,4 +303,32 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* ================== Responsive ==================  */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .main-header {
+      width: 100%;
+    }
+    .header-btn button a {
+        padding: 7px 20px;
+        width: max-content;
+        font-size: 12px;
+}
+ .logo img{
+    width: 150px;
+}
+.content h1{
+    font-size: 115px;
+}
+.content p{
+    font-size: 14px;
+    width: 360px;
+}
+.content-img{
+    margin-left: -180px;
+    margin-right: 250px;
+}
 }
